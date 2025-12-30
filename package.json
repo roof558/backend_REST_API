@@ -1,0 +1,19 @@
+{
+  "name": "backend_rest_api",
+  "version": "1.0.0",
+  "description": "study of rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roof558/backend_REST_API.git"
+  },
+  "author": "Justin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roof558/backend_REST_API/issues"
+  },
+  "homepage": "https://github.com/roof558/backend_REST_API#readme"
+}
