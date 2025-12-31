@@ -1,0 +1,24 @@
+Typescript: superset of Javascript, has all the same feature as Javascript 
+			but with an additional layer on the top: the type system
+			It allows for optional static typing, as well as type inference.
+			
+			Since Javascript has weekness in static typing, 
+			it results harder to spot issues at complie time and leading to hard-to-debug error at runtime.
+			As the size of a project increases, the maintainability and readability of the code reduces as well.
+			
+			Typescript has extra layer on top of Javascript, uses a transpiler at build time to convert the Typescript
+			code into Javascript.
+			
+Static coding: 	Analysis inspect code before/without running it. FInd the structure issues and errors.
+				Immediate feedback coding quality and early security check.
+Dynamic coding: Analysis tests the running application to see real-time behavior, etc.
+				Validate functionality, performance, and security in a live environment.
+				
+
+import express  from "express";
+import { Express } from "express";
+
+Difference: Express -> type and express -> function.
+			Express used only at compile time, express used at runtime**
+			
+

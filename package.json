@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "study of rest api",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/main.ts",
+    "start": "node --loader ts-node/esm src/main.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/roof558/backend_REST_API/issues"
   },
-  "homepage": "https://github.com/roof558/backend_REST_API#readme"
+  "homepage": "https://github.com/roof558/backend_REST_API#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0"
+  }
 }
