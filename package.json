@@ -2,10 +2,9 @@
   "name": "backend_rest_api",
   "version": "1.0.0",
   "description": "study of rest api",
-  "main": "index.js",
-  "type": "module",
+  "main": "main.ts",
   "scripts": {
-    "dev": "nodemon src/main.ts",
+    "dev": "nodemon --exec ts-node backend/src/main.ts",
     "start": "node --loader ts-node/esm src/main.ts",
     "build": "tsc"
   },
@@ -30,6 +29,7 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "mongodb": "^7.0.0"
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.1"
   }
 }

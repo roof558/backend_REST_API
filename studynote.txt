@@ -21,4 +21,25 @@ import { Express } from "express";
 Difference: Express -> type and express -> function.
 			Express used only at compile time, express used at runtime**
 			
-
+Express.js: one of popular web application framework for Node.js
+			Provide thin layer of essential feature on top of Node.js's core functionality, 
+			simplifying common web development tasks without imposing a rigid structure. 
+			
+			Provide features:
+				Routing System (GET, POST, PUT, DELETE)
+				Middleware support:	One of core concept; They are functions that have access to the request and response objects
+									and the next middleware function in the application request-response cycles.
+									Used as authentication, logging, parsing request body, and error handling.
+				Templating Integration:	Support various templating or "View" engines like Pug, EJS, and Handlebar,
+										which allow for generating dynamic HTML content on the server side.
+				Static File Serving: Can easily serve static file like images, CSS, and Javascript file from a designated directory.
+				Extensibility:	Has a large ecosystem of third-party plugin and middleware packages available via npm (Node Package Manager) 
+								that can be integrated to add functionality as needed.
+								
+Async:	It let program wait for slow operations (DB, API, file I/O),
+		without blocking the entire server.	(await, async)
+		Examples: Database queries, Network requests, Reading files, Authentication checks
+		Key characteristics: 
+				Always return Promise
+				Enable the "await" keyward: it can only used inside an async function, pause the execution of the function until the Promise
+											it's waiting for it settled (resolved or rejected)
